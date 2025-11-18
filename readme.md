@@ -1,7 +1,7 @@
 # MMS Lab Works
-### Name : Your Name
-### Roll no. : 2314XX
-### Email : youremail@ncit.edu.np
+### Name : Saugat Pudasaini
+### Roll no. : 231532
+### Email : saugat.231532@ncit.edu.np
 
 ---
 | Lab#   | Title                                                                | Date       | Remarks |
