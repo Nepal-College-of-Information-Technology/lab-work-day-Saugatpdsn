@@ -6,4 +6,5 @@
 ---
 | Lab#   | Title                                                                | Date       | Remarks |
 |------  |--------------------------  |------------|---------|
-| 1      | Introduction to MMS lab                                               | .... |Familirization with github basic, discord        |
+| 1      | Introduction to MMS lab                                              | 2025/11/01 |Familirization with github basic, discord        |
+| 2      | Basic Sound Proocessing And Manipulation Using Python                |2025/12/02 |Familliarization with essential techniques and tools for handling and modifyng sound data|
