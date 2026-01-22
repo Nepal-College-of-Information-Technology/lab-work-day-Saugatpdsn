@@ -5,7 +5,6 @@
 3. Perform audio using sign wave
 4. Visualize audio waveform and spectrum properties
 ## Background Theory:
-* Sound and audio represention
   
   Sound is a continuous analog signal produced by vibrations in the air. When this signal is recorded and handled by a computer, it is transformed into a digital form made up of numerical values. These digital samples allow the sound to be stored, played back, edited, and analyzed using software tools.
 
