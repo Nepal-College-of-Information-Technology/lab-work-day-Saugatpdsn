@@ -90,11 +90,11 @@ vi. The spectrogram had been computed and displayed using Librosa to observe the
 
 vii. A simple audio signal, such as a sine wave, had been synthesized using NumPy .
 
-viii. The synthesized signal had been visualized in both waveform and spectrogram form.
+
 
 ix. Finally, the processed audio had been saved or exported using Pydub or Librosa.
 ## Output
-The audio file drum.wav was successfully loaded and played using Pydub or Librosa. The waveform clearly displayed the time-domain representation, and the spectrogram showed the frequency distribution over time. A synthetic sine wave was created using NumPy, with both its waveform and spectrogram visualized successfully. The processed audio, including trimming, volume adjustment, and resampling, was exported correctly.
+The audio file drum.wav was successfully loaded and played using Pydub or Librosa. The waveform clearly displayed the time-domain representation, and the spectrogram showed the frequency distribution over time. A synthetic sine wave was created using NumPy, with both its waveform and spectrogram visualized successfully.
 
 
 In this lab, audio was successfully loaded, analyzed, and processed using Pydub, Librosa, NumPy, and Matplotlib. Waveforms and spectrograms demonstrated time and frequency characteristics, while a synthetic sine wave was generated and visualized. The experiment highlighted key audio manipulations like trimming, volume adjustment, and resampling, reinforcing practical skills in digital audio processing.
