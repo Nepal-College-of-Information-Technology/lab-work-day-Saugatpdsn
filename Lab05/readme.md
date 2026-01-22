@@ -18,31 +18,45 @@ The main objectives of this lab are:
 ---
 
 ##  Background Theory
+3.1 Image Classification
 
-### 1. Image Detection and Recognition
-Image detection involves locating objects or regions of interest (such as faces) within an image, while image recognition focuses on identifying or classifying those detected objects. In this lab, face detection is performed before classification.
+Image classification is a fundamental task in computer vision where an input image is assigned a label or category from a predefined set of classes. It involves extracting meaningful features from an image and using these features to predict the most probable class.
 
-### 2. Image Processing Using OpenCV in Python
-OpenCV is an open-source computer vision library widely used for image processing tasks such as image loading, resizing, face detection, and visualization. Python bindings of OpenCV make it easy to integrate with deep learning models.
+Traditional image classification relied on manually designed features such as edges, corners, and textures. However, modern systems use deep learning models that automatically learn hierarchical features from raw pixel data.
 
-### 3. Classical Machine Learning vs Deep Learning
-Classical machine learning methods rely on manual feature extraction, whereas deep learning automatically learns features from raw data. CNNs, a type of deep learning model, are especially effective for image-based tasks.
+3.2 Convolutional Neural Networks (CNNs)
 
-### 4. Convolutional Neural Network (CNN)
-A CNN is a deep learning architecture designed for image analysis. It uses convolutional layers to extract features such as edges, textures, and shapes, followed by fully connected layers for classification. Pre-trained CNN models can be reused for tasks like gender classification.
-
----
+A Convolutional Neural Network is a specialized type of deep neural network designed for processing grid-like data such as images. CNNs consist of multiple layers that progressively extract higher-level features.
 
 
 
 
 
----
+#  System Requirements
+Hardware Requirements
 
-## Outcome
-The system successfully detects the face region from the input image and classifies the gender using a pre-trained deep learning model, demonstrating the effectiveness of CNN-based image classification.
+Computer or Laptop
 
----
+Webcam (optional, for real-time classification)
 
-##  Conclusion
-This lab demonstrates how OpenCV and pre-trained deep learning models can be combined to perform image classification tasks efficiently. Using CNNs significantly improves accuracy compared to traditional machine learning approaches.
+Software Requirements
+
+Python 3.x
+
+OpenCV (cv2)
+
+NumPy
+
+TensorFlow / Keras or Deep Learning Framework
+
+Pre-trained CNN Model Files
+
+Code Editor (VS Code / PyCharm / Jupyter Notebook)
+
+## Result
+
+The experiment was successfully performed, and image classification was achieved using OpenCV and a pre-trained deep learning model. The system was able to correctly identify objects in the input images with a high confidence score. The results demonstrate the effectiveness of CNN-based models in real-world image recognition tasks.
+
+## Conclusion
+
+In this laboratory experiment, image classification was implemented using OpenCV and a pre-trained Convolutional Neural Network model. The study provided a clear understanding of how deep learning models can be integrated with computer vision libraries to perform intelligent image analysis.
