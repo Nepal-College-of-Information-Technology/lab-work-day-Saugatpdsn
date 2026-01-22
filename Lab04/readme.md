@@ -18,6 +18,7 @@
     *  Grayscale image : 2D matrix (height × width)
 
     * Color image :3D matrix (height × width × channels)
+    
  * ### Color models (RGB,Grayscale and Binary)
 
    #### i. RGB Color Model
@@ -41,56 +42,24 @@
     Each pixel has only two possible values: 0 (black) or 1 (white). Often created from grayscale images using thresholding.
 
 
- * ### Image file formats
-    #### BMP (Bitmap):
-    BMP is an uncompressed format that stores images pixel by pixel, giving high quality but very large file sizes, making it less suitable for web use.
-
-    #### JPEG (Joint Photographic Experts Group):
-    JPEG uses lossy compression to reduce file size while keeping good quality, making it ideal for photographs and online images.
-
-    #### WebP:
-    WebP is a modern format by Google that supports lossy, lossless compression, and transparency, producing smaller files than JPEG, ideal for web graphics.
-
-    #### Grayscale:
-    Grayscale images store only intensity values from black to white, reducing memory usage and commonly used in image processing and medical imaging.
- * ### Basic image transformation
-    Image transformation involves modifying an image’s size, orientation, or structure without changing its content. Common basic transformations include:
-    Resize:
-    #### Resizing:
-    changes an image’s dimensions to enlarge or shrink it, useful for fitting specific sizes or reducing memory usage.
-
-    #### Rotate:
-    Rotation turns an image by a certain angle, like 90° or 180°, to correct orientation or create visual effects.
-
-    #### Flip:
-    Flipping mirrors an image horizontally or vertically, commonly used in editing and data augmentation.
-
-    #### Crop (ROI):
-    Cropping selects a portion of the image, removing unwanted areas and focusing on important regions.
-
-    #### Translate (Shift) & Scale:
-    Translation moves the image along the x or y axis, while scaling proportionally resizes it without distortion.   
- * ### Introduction to openCv:
-
-    OpenCV (Open Source Computer Vision Library) is an open-source library used for computer vision, image processing, and machine learning tasks. It provides a wide range of functions to read, display, and manipulate images and videos, as well as to detect objects, faces, and shapes. OpenCV supports multiple programming languages, including Python, and Java, and works on different platforms like Windows, Linux, and macOS.
 ---
  ## Procedure
-#### Step 1: Import Required Libraries
+#### Step 1:
 We had imported the necessary libraries, cv2 for image processing and numpy for array operations.
 
-#### Step 2: Load and Display an Image
+#### Step 2:
 We had loaded the image from the file and had displayed it in a window using cv2.imshow().
 
-#### Step 3: Convert Color Image to Grayscale
+#### Step 3:
 We had converted the color image to grayscale using cv2.cvtColor() and had displayed the grayscale image.
 
-#### Step 4: Convert Grayscale Image to Binary
+#### Step 4:
 We had applied thresholding on the grayscale image to had obtained a binary image and had displayed it.
 
-#### Step 5: Image Transformations
+#### Step 5:
 We had resized the image, had rotated it, had flipped it, and had cropped a portion for transformation demonstration.
 
-#### Step 6: Crop ROI (Region of Interest):
+#### Step 6: 
 we had defined a specific region of interest, had cropped that area from the original image, and had displayed the cropped ROI.
 
 --- 
