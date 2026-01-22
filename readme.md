@@ -10,4 +10,4 @@
 | 2      | Basic Sound Proocessing And Manipulation Using Python                |2025/12/02 |Familliarization with essential techniques and tools for handling and modifyng sound data|
 | 3      | Basic audio Proocessing And Manipulation Using Python                |2025/12/02 |Familliarization with audio and midi|
 | 4      | Basic Image Processing Using Python                                  |2025/12/02 |Familliarization with image conversion and ROI|
-| 5      | Basic Image Processing Using Python                                  |2025/12/02 |Familliarization with image conversion and ROI|
+| 5      | Image Classification using OpenCV and Pre-trained Deep Learning Model                              |2025/12/02 |Familliarization with image conversion and ROI|
