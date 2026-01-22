@@ -10,90 +10,65 @@
 
   Features:
 
-   i) Represents sound as amplitude plotted against time.
+  1)  Represents sound as a variation of amplitude over time.
 
-   ii) Can be stored in formats such as WAV, MP3, and FLAC.
+  2) Can be stored in standard file formats such as WAV, MP3, and FLAC.
 
-   iii)Supports digital operations like filtering, amplification, and noise removal.
+  3) Supports digital operations including filtering, amplification, and noise reduction.
 
-   iv) Can be examined in both time-domain and frequency-domain views.
+  4) Can be analyzed in both the time domain and the frequency domain.
 
-   Example: A microphone recording your voice becomes a list of sample values like [0.2, 0.4, 0.1, …].
+  
 
   
  ## Sampling and Quantization
   
-  Sampling captures sound at regular time intervals, while quantization assigns each sample a discrete numeric value. Together, they convert analog audio into digital form.
+ Digital audio is created through two main processes: sampling and quantization.
 
-  Features:
+  Sampling involves measuring the sound signal at fixed time intervals. The number of samples taken per second is called the sampling rate (for example, 44.1 kHz for CD-quality audio).
 
-   i) The sampling rate determines how often the signal is measured (e.g., 44.1 kHz for high-quality music).
+  Quantization assigns each sample a discrete numerical value based on the system’s bit depth (for example, 16-bit or 24-bit audio).
 
-  ii) Bit depth controls how accurately each sample is represented (e.g., 16-bit audio).
-
- iii) Higher sampling rates and bit depths improve sound quality and reduce distortion.
-
-  iv) The Nyquist Theorem ensures proper sampling to prevent aliasing.
-
-   Example: Telephone audio uses 8 kHz sampling, while studio audio uses 48 kHz for higher detail.
 
 * PyDub
   
   PyDub is a Python library designed for straightforward audio editing and manipulation tasks. It provides simple commands for modifying and managing audio files efficiently.
 
   Features:
+  1) Allows trimming, merging, and splitting of audio segments.
 
-   i) Supports cutting, joining, and splitting audio clips.
+  2) Supports volume control, fade-in and fade-out effects, and  playback speed changes.
 
-   ii) Enables volume changes, fade effects, and speed adjustments.
+  3) Enables conversion between different audio formats such as MP3 and WAV.
+
+  4) Uses FFmpeg as a backend for audio processing.
   
 
-  iii) Converts audio between different file formats (e.g., MP3 to WAV).
-  
-
-   iv) Works with FFmpeg for backend processing.
-  
-
-   Example: Trim a 10-second audio clip to 5 seconds using audio[:5000].
-
-* Librose
-  
-  Librosa is an advanced Python library used for audio analysis, especially in music and machine-learning applications.
-
-  Features:
-
-   i) Generates spectrograms and mel-spectrograms.
-
-  ii) Extracts MFCCs, chroma, tempo, and pitch.
-  
- iii)  Provides tools for visualization and signal processing.
  
-  iv) Used in speech recognition, music classification, and feature extraction.
+
+
   
-   Example: Using Librosa to create a spectrogram to analyze the frequency content of a song.
   
 
 ## Procedure
 
- i. The required libraries, such as Pydub, Librosa, NumPy, and Matplotlib, had been imported.
+i. The necessary libraries, including PyDub, Librosa, NumPy, and Matplotlib, were imported.
 
-ii. The sample audio file (drum.wav) had been loaded using either Pydub.
+ii. The sample audio file (drum.wav) was loaded using PyDub.
 
-iii. The audio had been played in Python to verify that it had been loaded correctly.
+iii. The audio file was played to confirm that it was successfully loaded.
 
-iv. The audio had been processed and manipulated by performing tasks such as adjusting the volume, cutting or trimming sections, adding simple effects, and resampling or changing the playback speed.
+iv. The signal was processed by performing operations such as adjusting volume, trimming sections, applying simple effects, and modifying playback speed or sampling rate.
 
-v. The audio signal had been analyzed by converting it into a waveform (time-domain plot).
+v. The audio data was converted into a waveform and displayed to observe its time-domain characteristics.
 
-vi. The spectrogram had been computed and displayed using Librosa to observe the frequency content of the audio.
+vi. A spectrogram was generated using Librosa to visualize the distribution of frequencies over time.
 
-vii. A simple audio signal, such as a sine wave, had been synthesized using NumPy .
+vii. A synthetic audio signal, such as a sine wave, was created using NumPy for demonstration purposes.
+
+viii. The processed and generated audio files were saved or exported using PyDub or Librosa.
 
 
-
-ix. Finally, the processed audio had been saved or exported using Pydub or Librosa.
 ## Output
 The audio file drum.wav was successfully loaded and played using Pydub or Librosa. The waveform clearly displayed the time-domain representation, and the spectrogram showed the frequency distribution over time. A synthetic sine wave was created using NumPy, with both its waveform and spectrogram visualized successfully.
 
-
-In this lab, audio was successfully loaded, analyzed, and processed using Pydub, Librosa, NumPy, and Matplotlib. Waveforms and spectrograms demonstrated time and frequency characteristics, while a synthetic sine wave was generated and visualized. The experiment highlighted key audio manipulations like trimming, volume adjustment, and resampling, reinforcing practical skills in digital audio processing.
