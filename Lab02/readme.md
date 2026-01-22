@@ -7,34 +7,34 @@
 ## Background Theory:
 * Sound and audio represention
   
-  Sound is an analog wave created by vibrations, and audio representation converts this continuous signal into a digital format for computer processing. Digital audio stores sound as numerical samples over time, enabling playback, editing, and analysis.
+  Sound is a continuous analog signal produced by vibrations in the air. When this signal is recorded and handled by a computer, it is transformed into a digital form made up of numerical values. These digital samples allow the sound to be stored, played back, edited, and analyzed using software tools.
 
   Features:
 
-   i) Represents sound using amplitude vs. time.
+   i) Represents sound as amplitude plotted against time.
 
-   ii) Enables storage in formats like WAV, MP3, FLAC.
+   ii) Can be stored in formats such as WAV, MP3, and FLAC.
 
-   iii) Allows digital processing such as filtering and noise reduction.
+   iii)Supports digital operations like filtering, amplification, and noise removal.
 
-   iv) Can be viewed in time-domain or frequency-domain.
+   iv) Can be examined in both time-domain and frequency-domain views.
 
    Example: A microphone recording your voice becomes a list of sample values like [0.2, 0.4, 0.1, …].
 
   
-* Sampling and Quantization
+ ## Sampling and Quantization
   
   Sampling captures sound at regular time intervals, while quantization assigns each sample a discrete numeric value. Together, they convert analog audio into digital form.
 
   Features:
 
-   i) Sampling rate decides clarity (e.g., 44.1 kHz for music).
+   i) The sampling rate determines how often the signal is measured (e.g., 44.1 kHz for high-quality music).
 
-   ii) Bit depth affects precision and dynamic range (e.g., 16-bit).
+  ii) Bit depth controls how accurately each sample is represented (e.g., 16-bit audio).
 
-  iii) Higher values give better quality and less noise.
+ iii) Higher sampling rates and bit depths improve sound quality and reduce distortion.
 
-   iv) Based on Nyquist Theorem to avoid aliasing.
+  iv) The Nyquist Theorem ensures proper sampling to prevent aliasing.
 
    Example: Telephone audio uses 8 kHz sampling, while studio audio uses 48 kHz for higher detail.
 
