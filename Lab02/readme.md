@@ -40,19 +40,19 @@
 
 * PyDub
   
-  PyDub is a Python library used for simple and efficient audio editing and manipulation.
+  PyDub is a Python library designed for straightforward audio editing and manipulation tasks. It provides simple commands for modifying and managing audio files efficiently.
 
   Features:
 
-   i) Supports cutting, merging, and slicing audio.
+   i) Supports cutting, joining, and splitting audio clips.
 
-   ii) Allows volume control, fade-in/out, and speed change.
+   ii) Enables volume changes, fade effects, and speed adjustments.
   
 
-  iii) Converts between formats (MP3 ↔ WAV).
+  iii) Converts audio between different file formats (e.g., MP3 to WAV).
   
 
-   iv) Easy to use with FFmpeg backend.
+   iv) Works with FFmpeg for backend processing.
   
 
    Example: Trim a 10-second audio clip to 5 seconds using audio[:5000].
