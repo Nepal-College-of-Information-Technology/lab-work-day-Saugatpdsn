@@ -4,7 +4,7 @@
 ---
 
 ##  Title
-*Image Classification using OpenCV and Pre-trained Deep Learning Model*
+Image Classification using OpenCV and Pre-trained Deep Learning Model
 
 ---
 
@@ -33,21 +33,9 @@ A CNN is a deep learning architecture designed for image analysis. It uses convo
 
 ---
 
-## 🛠 Tools and Technologies Used
-- Python  
-- OpenCV  
-- Pre-trained CNN model  
-- NumPy  
 
----
 
-##  Methodology
-1. Load the pre-trained CNN model.
-2. Read the input image using OpenCV.
-3. Detect the face region (ROI) from the image.
-4. Resize and preprocess the ROI as required by the model.
-5. Classify the image using the pre-trained model.
-6. Display the classification result.
+
 
 ---
 
