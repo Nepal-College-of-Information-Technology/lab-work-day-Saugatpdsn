@@ -1,10 +1,10 @@
-# *Lab : 3*
+# Lab : 3
 
-# *MIDI Note Processing and Algorithmic Music Generation*
+# MIDI Note Processing and Algorithmic Music Generation
 
 ---
 
-## *Objectives*
+## Objectives
 
 - Print MIDI channels, notes, and their corresponding frequencies.  
 - Generate simple beat, harmony, and melody patterns using MIDI notes.  
@@ -13,9 +13,9 @@
 
 ---
 
-## *Background Theory*
+## Background Theory
 
-### *1. MIDI Standard*
+### 1. MIDI Standard
 
 - *MIDI (Musical Instrument Digital Interface)* is a communication protocol used to send digital music performance data.  
 - It stores musical instructions such as:
@@ -49,15 +49,15 @@ To convert a MIDI note number n to its frequency: f = 440 × 2^((n - 69) / 12)
 
 ### *3. Python Libraries Used*
 
-#### *Mido*
+#### Mido
 - For reading, writing, and analyzing MIDI files.
 
-#### *Pygame*
+#### Pygame
 - For playing MIDI files and basic audio handling.
 
 ---
 
-## *Procedure*
+## Procedure
 
 1. Import required libraries:
 
@@ -110,7 +110,7 @@ To convert a MIDI note number n to its frequency: f = 440 × 2^((n - 69) / 12)
 
 ---
 
-## *Output*
+## Output
 
 - Printed MIDI:
   - Channels  
@@ -128,7 +128,7 @@ To convert a MIDI note number n to its frequency: f = 440 × 2^((n - 69) / 12)
 
 ---
 
-## *Conclusion*
+## Conclusion
 
 This lab explored MIDI processing using Python.  
 We extracted MIDI note information, converted notes into frequencies, and generated musical patterns such as beats, harmony, and melody. We also played and converted these MIDI files into standard audio formats. This experiment strengthened understanding of MIDI protocol, basic music theory, and Python-based algorithmic music generation.
